@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Major Mono Display', monospace;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    background-color:rgb(255, 60, 99);
+}
+
+.navbar-brand{
+    padding-left: 1vw;
+
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    
+    
+}
+
+
+
+.nav-item{
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    letter-spacing: 3px;
+    transition: 1s;
+
+    color: white;
+}
+
+
+
+.box{
+    margin-top: 20vh;
+    
+
+}
+
+#profile{
+    
+   align-items: center;
+ 
+}
+
+.picture{
+    object-fit: cover;
+}
+
+#picture img{
+    border-radius: 50%;
+}
+
+.info{
+    margin: 1vw;
+}
+
+#desc{
+    text-align: justify;
+    padding: 5%;
+}
+
+.box3{
+    text-align: center;
+    margin-bottom: 20vh;
+    
+}
+
+.box4{
+    margin-bottom: 10vh;
+}
+
+.resume{
+    padding: 1%;
+    outline-style: dotted;
+}
+
+.resume h2{
+    text-align: center;
+}
+
+.banner{
+    background-color: black;
+    color: white;
+}
+
+#portfolio div{
+    padding: 0.6775067750677507vh 0.3255208333333333vw;
+
+
+}
+
+.img-cont img{
+    object-fit: cover;
+    height: 70vh;
+    
+}
+
+
+
+
+
+
